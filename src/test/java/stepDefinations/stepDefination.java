@@ -53,6 +53,7 @@ portalHomePage p=new portalHomePage(driver);
 	    }
 	 @And("^close browsers$")
 	    public void close_browsers() throws Throwable {
+		 System.out.println("CLOSING THE BROWSER>>>CLOSE...CLOSE...CLOSE....");
 	        driver.quit();
 	    }
 	
